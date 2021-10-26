@@ -1,0 +1,396 @@
+body{
+    margin: 0;
+    font-family: 'Avenir Next LT Pro';
+    background-color: #F3F5F5;
+}
+h1{
+    color: #4A4A4A;
+    margin: 0;
+    font-size: 30px;
+}
+h3{
+    font-weight: bold;
+    color: #525252;
+    font-size: 19px
+}
+p{
+    font-size: 14px;
+}
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #3b86dc;
+}
+header .container{
+    display: none;
+    padding: 16px 24px 12px 24px;
+    background-color: #fff;
+}
+header .container .left{
+    display: inline-flex;
+
+    align-items: center;
+}
+header .container .left div{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4A4A4A;
+}
+header .container .left div span{
+    font-weight: 500;
+    color: #AFAFAF;
+}
+header .container .right{
+    display: inline-block;
+    float: right;
+    margin-top: 6px;
+}
+header .container .right a{
+    font-size: 15px;
+    margin-left: 16px;
+    color: #6F6F6F;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 24px 9px 24px;
+}
+nav .icon{
+    display: inline-block;
+}
+#banner {
+    background-color: #DBDBDB;
+}
+#banner .container .img img{
+    width: 100%;
+}
+#banner .container .info {
+    padding: 32px 16px;
+}
+
+#banner .container .info h3{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+#banner .container .info .btn{
+    text-align: center;
+    background-color: #9B9B9B;
+    color: #fff;
+    padding: 8px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+#post .container{
+    padding: 16px;
+    border-bottom: solid 1px #eee;
+}
+#post .container .left{
+    display: none;
+}
+#post .container .right .item{
+    margin-bottom: 20px;
+}
+#post .container .right .item .img img{
+    width: 100%;
+}
+#post .container .right .item .info{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+#post .container .right .item .info h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#post .container .right .item .info p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+#learn .container{
+    padding: 32px 16px;
+    border-bottom: solid 1px #ddd;
+}
+#learn .container h1{
+    text-align: center;
+}
+#learn .container .courses{
+    margin-top: 16px;
+}
+#learn .container .courses .course{
+    padding: 16px 16px 18px 16px;
+    background-color: #D8D8D8;
+    margin-bottom: 8px;
+}
+#learn .container .courses .course .img{
+    display: none;
+}
+#learn .container .courses .course .info h3{
+    margin: 0;
+}
+#learn .container .courses .course .info p{
+    display: none;
+}
+#thesis .container{
+    padding: 32px 0 24px 0;
+}
+#thesis .container h1{
+    text-align: center;
+}
+#thesis .container .flex .left .video{
+    margin-top: 16px;
+}
+#thesis .container .flex .left .video video{
+    width: 100%;
+}
+#thesis .container .flex .left .info{
+    display: none;
+}
+#thesis .container .flex .right{
+    display: none;
+}
+footer .container{
+    padding: 16px;
+}
+footer .container .left p{
+    margin: 0;
+}
+footer .container .right{
+    display: none;
+}
+
+@media (min-width: 768px){
+    h1{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    header .container{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    #banner .container{
+        padding: 32px 24px;
+        display: flex;
+        align-items: center;
+    }
+    #banner .container .img{
+        display: inline-block;
+        width: 60%;
+        padding-right: 24px;
+    }
+    #banner .container .info{
+        width: 40%;
+        display: inline-block;
+        padding: 0;
+    }
+    #banner .container .info h3{
+        margin-top: 24px;
+    }
+    #banner .container .info .btn{
+        font-size: 14px;
+        background-color: #4A4A4A;
+    }
+    #post .container{
+        padding: 0;
+        display: flex;
+    }
+    #post .container .left{
+        display: inline-block;
+        width: 60%;
+        padding: 32px 24px;
+    }
+    #post .container .left .img img{
+        width: 100%;
+    }
+    #post .container .left .info{
+        margin-top: 28px;
+    }
+    #post .container .left .info span{
+        font-size: 13px;
+        display: block;
+        margin-top: 24px;
+    }
+    #post .container .right {
+        display: inline-block;
+        width: 40%;
+        border-left: solid 1px #ddd;
+        padding-top: 16px;
+    }
+    #post .container .right .item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        padding: 16px 0;
+    }
+    #post .container .right .item:hover{
+        background-color: #DBDBDB;
+    }
+    #post .container .right .item .img{
+        width: 35%;
+        height: auto;
+        display: inline-block;
+        padding-left: 16px
+    }
+    #post .container .right .item .info{
+        margin-top: 0;
+        display: inline-block;
+        width: 65%;
+    }
+    #post .container .right .item .info a{
+        font-size: 11px;
+    }
+    #learn .container{
+        background-color: #DBDBDB;
+        padding: 32px 72px;
+    }
+    #learn .container .courses{
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 12px 16px;
+    }
+    #learn .container .courses .course{
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    #learn .container .courses .course .img{
+        display: block;
+    }
+    #learn .container .courses .course .img img{
+        width: 100%;
+    }
+    #learn .container .courses .course .info{
+        padding: 16px;
+    }
+    #learn .container .courses .course .info p{
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+    #thesis .container{
+        padding: 32px 24px;
+        border-bottom: solid 1px #ddd;
+    }
+    #thesis .container .flex{
+        display: flex;
+        margin-top: 32px;
+    }
+    #thesis .container .flex .left{
+        width: 60%;
+    }
+    #thesis .container .flex .right{
+        width: 40%;
+        margin-left: 24px;
+        display: inline-block;
+    }
+    #thesis .container .flex .left .video{
+        margin-top: 0;
+    }
+    #thesis .container .flex .left .info{
+        display: block;
+    }
+    #thesis .container .flex .right .item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        padding: 16px 0;
+    }
+    #thesis .container .flex .right .item:hover{
+        background-color: #DBDBDB;
+    }
+    #thesis .container .flex .right .item .img{
+        width: 35%;
+        height: auto;
+        display: inline-block;
+        padding-left: 16px
+    }
+    #thesis .container .flex .right .item .img img{
+        width: 100%;
+    }
+    #thesis .container .flex .right .item .info{
+        margin-top: 0;
+        display: inline-block;
+        width: 65%;
+        margin-left: 16px;
+    }
+    footer .container{
+        padding: 16px 24px;
+    }
+    footer .container .left{
+        display: inline-block;
+    }
+    footer .container .right{
+        display: inline-block;
+        float: right;
+    }
+    footer .container .right a{
+        font-size: 12px;
+        color: black;
+    }
+}
+@media (min-width: 1024px) {
+    h1{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 13px;
+    }
+    #banner .container{
+        padding: 42px 34px;
+    }
+    #banner .container .img{
+        width: 55%;
+    }
+    #banner .container .info .btn{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    #post .container .right .item .info a{
+        font-size: 13px;
+    }
+    footer .container .right a{
+        font-size: 13px;
+    }
+}
+@media (min-width: 1368px) {
+    h1{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+    #banner .container{
+        padding: 50px 42px;
+    }
+    #banner .container .img{
+        padding-right: 48px;
+    }
+    #banner .container .info{
+        width: 30%;
+    }
+    #banner .container .info .btn{
+        font-size: 20px;
+        padding: 12px 0;
+    }
+    #post .container .right .item .info a{
+        font-size: 16px;
+    }
+    footer .container .right a{
+        font-size: 16px;
+    }
+}
